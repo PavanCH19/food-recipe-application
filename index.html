@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <head>
+        <div class="nav_bar">
+            <div class="nav_title">
+                <p>Foodieland</p>
+            </div>
+            <div class="nav_items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="nav_shareIcon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </head>
+    <div class="shortcut_home ">
+        <div class="biryani_data">
+            <div class="hot_recipes">
+                <p><i class="fa-solid fa-pepper-hot"></i> Hot Recipes</p>
+            </div>
+            <span>
+                <p id="biryani_title">Spicy fragrant rice with tender chicken.</p>
+            <p id="about_biryani">Layers of aromatic basmati rice, tender chicken, and vibrant spices come together in a symphony of flavors. This chicken biryani is a celebration of tradition and taste in every bite.</p>
+            </span>
+            <span>
+                <div class="timing_type">
+                    <p><i class="fa-solid fa-stopwatch-20"></i> 30 minutes</p>
+                </div>
+                <div class="timing_type">
+                    <p><i class="fa-solid fa-utensils"></i> Chicken</p>
+                </div>
+            </span>
+            <div class="view_recipes ">
+                <p class="popUp">View recipe <i class="fa-solid fa-circle-play"></i></p>
+            </div>
+        </div>
+        <img src="images/chicken_biryanni.jpg" alt="" class="biryani_img">
+    </div>
+    <div class="categories ">
+        <span>
+            <h1>Categories</h1>
+            <p class="popUp" id="view_all_categories">Categories...</p>
+        </span>
+    </div>
+    <div class="categories_types ">
+        <div class="category_type_css popUp" style="background-image: url(png/breakfast.png),linear-gradient(rgb(184, 222, 235),rgb(213, 139, 221));"><p>Breakfast</p></div>
+        <div class="category_type_css popUp" style="background-image: url(png/vegan.png),linear-gradient(rgb(184, 222, 235),rgb(213, 139, 221))"><p>vegan</p></div>
+        <div class="category_type_css popUp" style="background-image: url(png/meat.png),linear-gradient(rgb(184, 222, 235),rgb(234, 133, 245))"><p>Meat</p></div>
+        <div class="category_type_css popUp" style="background-image: url(png/lunch.png),linear-gradient(rgb(184, 222, 235),rgb(220, 173, 233))"><p>Lunch</p></div>
+        <div class="category_type_css popUp" style="background-image: url(png/desart.png),linear-gradient(rgb(184, 222, 235),rgb(186, 126, 185));"><p>Desart</p></div>
+        <div class="category_type_css popUp" style="background-image: url(png/chocolate.png),linear-gradient(rgb(184, 222, 235),rgb(195, 62, 73));"><p>chocolate</p></div>
+    </div> 
+    <div class="simple_taste ">
+        <div class="simple_taste_contents appear_slide">
+            <h2>Simple And Tasty Recipes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum alias, nesciunt doloremque magni est distinctio eaque consequatur atque?</p>
+        </div>
+    </div>    
+    <div class="simple_tasty_recipes appear">
+        <!-- <div class="simple_tasty_css popUp">
+            <div class="image">
+                <img src="images/noodals.jpg" alt="noodals">
+            </div>
+            <h3>Spicy noodles</h3>
+            <div class="backingtime_type">
+                <p><i class="fa-solid fa-stopwatch-20"></i> 30 minutes</p>
+                <p><i class="fa-solid fa-utensils"></i> Chicken</p>
+            </div>
+        </div> -->
+    </div>    
+    <div class="every1_chef">
+        <div class="every1_chef_data">
+            <p id="every1_chef_title">EveryOne Can Be A Chef In Their Own Kitchen</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In reiciendis facere recusandae distinctio, corrupti vitae ducimus accusamus tenetur nobis itaque repellendus molestias aliquid illo culpa fuga cum, iste id natus.</p>
+            <span>
+                <button class="btn_learnmore" type="submit">Learn more</button>
+            </span>
+        </div>
+        <div class="every1_chef_img">
+            <img src="png/every1_chef.png" alt="chef">
+        </div>
+    </div>
+    <div class="try_this_recepies">
+        <p id="try_this_recepies_content" class="appear_slide">Try This Delicious Recipies To Make Your Day.</p>
+        <p id="about_try_this_recepies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ipsum veritatis atque, nisi iure in quaerat soluta sequi a quod error tempora numquam maxime eum nesciunt dolore excepturi sint? Quasi.</p>
+    </div>
+    <div class="recipe_type">
+        <p class="recipe_type_name appear_slide">Desert Recipes :</p>
+        <div class="try_this_recepies_shortcut appear">
+        <!-- <div class="simple_tasty_css popUp">
+            <div class="image">
+                <img src="images/noodals.jpg" alt="noodals">
+            </div>
+            <h3>Spicy noodles</h3>
+            <div class="backingtime_type">
+                <p><i class="fa-solid fa-stopwatch-20"></i> 30 minutes</p>
+                <p><i class="fa-solid fa-utensils"></i> Chicken</p>
+            </div>
+        </div> -->
+        </div>
+    </div>
+    <div class="recipe_type">
+        <p class="recipe_type_name appear_slide">North Indian Recipes :</p>
+        <div class="try_this_recepies_shortcut appear">
+        <!-- <div class="simple_tasty_css popUp">
+            <div class="image">
+                <img src="images/noodals.jpg" alt="noodals">
+            </div>
+            <h3>Spicy noodles</h3>
+            <div class="backingtime_type">
+                <p><i class="fa-solid fa-stopwatch-20"></i> 30 minutes</p>
+                <p><i class="fa-solid fa-utensils"></i> Chicken</p>
+            </div>
+        </div> -->
+        </div>
+    </div>
+    <div class="recipe_type">
+        <p class="recipe_type_name appear_slide">South Indian Recipes :</p>
+        <div class="try_this_recepies_shortcut appear">
+        <!-- <div class="simple_tasty_css popUp">
+            <div class="image">
+                <img src="images/noodals.jpg" alt="noodals">
+            </div>
+            <h3>Spicy noodles</h3>
+            <div class="backingtime_type">
+                <p><i class="fa-solid fa-stopwatch-20"></i> 30 minutes</p>
+                <p><i class="fa-solid fa-utensils"></i> Chicken</p>
+            </div>
+        </div> -->
+        </div>
+    </div>
+    <div class="comment_box">
+        <p>Comments</p>
+        <div class="comment_input">
+            <input type="text" placeholder="comments">
+            <span><button type="submit">submit</button></span>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_about_this">
+            <p id="footer_title">Foodieland</p>
+            <div class="footer_shortcuts">
+                <p id="footer_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mini_footer">
+            <p>@ 2024. All the best</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

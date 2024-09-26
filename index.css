@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+body{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav_bar{
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.nav_title{
+    margin-left: 1rem;
+    position: absolute;
+    left: 0px;
+}
+.nav_title p{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.nav_items ul{
+    width: 150%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav_items ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.nav_items ul a:hover{
+    text-decoration: underline;
+    color: #f3821f;
+    transition: color, 2s, ease-in, 0s;
+}
+.nav_shareIcon{
+    margin-right: 1rem;
+    position: absolute;
+    right: 0px;
+}
+.nav_shareIcon i{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.shortcut_home{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 37vmax;
+    display: flex;
+    margin-top: 5vh;
+    background-color:#d7eafb;
+    border-radius: 10px;
+}
+.biryani_img{
+    width:40%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.biryani_data{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vw;
+    padding: 4vw;   
+}
+.hot_recipes p{
+    padding: 1vw;
+    font-size: 1.25vw;
+    display: inline-block;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+}
+#biryani_title{
+    font-size: 4vw;
+    font-weight: 500;
+}
+#about_biryani{
+    font-size: 1.5vw;
+}
+.timing_type{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0.5vw;
+    font-size: 1.25vw;
+    background-color: #CDB4DB;
+    margin-right: 1.5rem;
+}
+.view_recipes p{
+    padding: 1vw;
+    font-size: 1.25vw;
+    display: inline-block;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.view_recipes p:hover{
+    background-color: #f3821f;
+    transition: background-color,2s,ease-in,1s;
+    box-shadow: 0 0 10px#fea101,0 0 10px#fea101;
+}
+
+.categories{
+    margin-top: 2%;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    font-size: 3vw;
+}
+.categories #view_all_categories{
+    padding: 1vw;
+    display: inline-block;
+    background-color: rgb(221, 221, 221);
+    border-radius: 30px;
+    position: absolute;
+    right: 5%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    cursor: pointer;
+}
+.categories #view_all_categories:hover{
+    background-color: #f3821f;
+    transition: background-color,2s,ease-in,1s;
+    box-shadow: 0 0 10px#fea101,0 0 10px#fea101;
+}
+.categories_types{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.category_type_css{
+    height: 10vmax;
+    width: 12vmax;
+    background-size: cover;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: end;
+    font-size: 1.5vmax;
+    font-weight: 500;
+}
+.simple_taste{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.simple_taste_contents{
+    width: 50%;
+    text-align: center;
+}
+.simple_taste_contents h2{
+    font-size: 2.5vw;
+}
+.simple_taste_contents p{
+    margin-top: 1%;
+    font-size: 1.5vw;
+}
+.simple_tasty_recipes{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.simple_tasty_css{
+    background-color: #e2f0fc;
+    width: 20vmax;
+    height: 20vmax;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* display: inline-block; // Make each item inline-block 
+    margin-right: 10px; */
+}
+.image{
+    width: 90%;
+    height: 70%;
+    border-radius: 15px;
+}
+.simple_tasty_css img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.simple_tasty_css h3{
+    font-size: 1.8vmax;
+}
+.simple_tasty_css .backingtime_type p{
+    display: inline-block;
+    font-size: 1.2vmax;
+}
+.every1_chef{
+    background: linear-gradient(white,rgb(182, 221, 237));
+    background-size: contain;
+    height: 35vmax;
+    display: flex;
+}
+.every1_chef_data{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3%;
+}
+#every1_chef_title{
+    font-size: 4vw;
+    font-weight: 700;
+}
+.every1_chef_data p{
+    font-size: 1.5vw;
+}
+.every1_chef_data button{
+    padding: 0.5vw;
+    font-size: 1.2vw;
+    border-radius: 30px;
+}
+.every1_chef_img{
+    width: 40%;
+}
+.every1_chef_img img{
+    width: 100%;
+    height: 100%;
+}
+.try_this_recepies{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+#try_this_recepies_content{
+    width: 50%;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.3vw;
+}
+#about_try_this_recepies{
+    width: 50%;
+    font-size: 1.1vw;
+}
+.recipe_type_name{
+    font-size: 2vw;
+    font-weight: 600;
+}
+/* .try_this_recepies_shortcut {
+    /* margin-top: 3%;   
+    background-color: rebeccapurple;
+    display: flex; // Use flexbox to arrange children in a row 
+    overflow-x: auto; //Enable horizontal scrolling
+    white-space: nowrap; //Prevent line breaks for children
+    padding: 10px; // Optional: add some padding
+    gap: 10px; 
+} */
+.comment_box{
+    width: 100%;
+    height: 40vmax;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-image: url(images/footer_img.webp);
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comment_box p{
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2vw;
+}
+.comment_input input{
+    border: none;
+    width: 20vw;
+    padding: 1.1vw;
+    border-radius: 10px;
+    font-size: 1.3vw;
+}
+.comment_input input::placeholder{
+    color: #1601fe;
+    font-size: 1.5vw;
+}
+.comment_input button{
+    border: none;
+    width: 8vw;
+    padding: 0.9vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    color: #1601fe;
+}
+#footer_title{
+    font-size: 2.3vw;
+}
+#footer_content{
+    font-size: 1.3vw;
+}
+.footer_shortcuts{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_shortcuts ul{
+    width: 40%;
+    list-style-type: none;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.footer_shortcuts ul a{
+    color: black;
+    text-decoration: none;
+}
+.footer_shortcuts ul a:hover{
+    text-decoration: underline;
+}
+.mini_footer{
+    margin-top: 2%;
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+.mini_footer p{
+    margin: 2%;
+}
+
+/* animations */
+.popUp:hover{
+    transform: scale(1.05);
+    transition: transform,2s,ease,1s;
+}
+@keyframes appear_slide{
+    from{
+        transform: translate(-200px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+.appear_slide{
+    animation: appear_slide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+@keyframes appear_scale{
+    from{
+        opacity:0.5;
+        scale: 0.7;
+    }
+    to{
+        opacity:1;
+        scale: 1;
+    }
+}
+.appear{
+    animation: appear_scale linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+}
+
