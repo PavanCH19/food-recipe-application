@@ -25,7 +25,7 @@ let recepieCards_html =
 
 
 
-for(let i = 0; i < 8; i++) {
+for(let i = 0; i < 10; i++) {
     allRecepieCards_html += recepieCards_html; 
 }
     
