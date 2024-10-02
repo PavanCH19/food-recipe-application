@@ -3,6 +3,11 @@
     margin: 0;
     border: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .nav-search{
     position: sticky;
     top: 0px;
@@ -55,4 +60,63 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.recipe-details{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f18220;
+    justify-content: space-between;
+    width: 85.5%;
+    margin-left: 4.75%;
+    margin-right: 4.75%;
+    row-gap: 1.5vw;
+}
+.recipe-details-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipe-name {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.recipe-details-head i{
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+.image-details{
+    display: flex;
+    justify-content: space-between;
+}
+.image-details img{
+    width: 53%;
+    border-radius: 20px;
+}
+.intro{
+    width: 45%;
+    margin-top: 1%;
+    text-align: justify;
+}
+.ingridients p{
+    font-size: 1.7vw;
+    text-align: justify;
+}
+.ingridients pre{
+    font-size: 1.1vw;
+}
+.procedure{
+    font-size: 1.7vw;
+}
+.procedure-details{
+    font-size: 1.1vw;
+    text-align: justify;
+}
+.thankyou{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
 }
